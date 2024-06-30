@@ -13,7 +13,7 @@ const WeatherService = () => {
         const response = await axios.get('https://api.openweathermap.org/data/2.5/weather', {
           params: {
             q: 'London',
-            appid: '52b29abeb4783d1320391276808ecc23',
+            appid: '',
           },
         });
         setWeatherData(response.data);
